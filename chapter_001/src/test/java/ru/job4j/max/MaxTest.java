@@ -9,6 +9,9 @@ import static org.junit.Assert.assertThat;
  */
 
 public class MaxTest {
+    /**
+     * первое меньше второго.
+     */
     public void whenFirstLessSecond() {
         Max maxim = new Max();
         int result = maxim.max(1, 2);
