@@ -24,6 +24,7 @@ public class Point {
      * @return икс.
      */
     public int getX() {
+
         return this.x;
     }
     /**
@@ -31,16 +32,18 @@ public class Point {
      * @return игрек.
      */
     public int getY() {
+
         return this.y;
     }
     /**
      * проверяем условие нахождения точки.
      * @param a угловой коэффиц.
      * @param b коэффиц. пересечения с осью У.
-     * @return истина/ложь.
+     * @return истина/ложь..
      */
     public boolean is(int a, int b) {
-        return (this.y == a * this.x + b) ? true : false;
+
+        return this.y == a * this.x + b;
     }
 }
 
