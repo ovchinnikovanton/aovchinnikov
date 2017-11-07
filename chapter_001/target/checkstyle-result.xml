@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.11.2">
+<file name="C:\project\aovchinnikov\chapter_001\src\main\java\ru\job4j\array\ArrayDuplicate.java">
+</file>
 <file name="C:\project\aovchinnikov\chapter_001\src\main\java\ru\job4j\array\BubbleSort.java">
+</file>
+<file name="C:\project\aovchinnikov\chapter_001\src\main\java\ru\job4j\array\RotateArray.java">
 </file>
 <file name="C:\project\aovchinnikov\chapter_001\src\main\java\ru\job4j\array\Turn.java">
 </file>
@@ -32,7 +36,11 @@
 </file>
 <file name="C:\project\aovchinnikov\chapter_001\src\main\java\ru\job4j\package-info.java">
 </file>
+<file name="C:\project\aovchinnikov\chapter_001\src\test\java\ru\job4j\array\ArrayDuplicateTest.java">
+</file>
 <file name="C:\project\aovchinnikov\chapter_001\src\test\java\ru\job4j\array\BubbleSortTest.java">
+</file>
+<file name="C:\project\aovchinnikov\chapter_001\src\test\java\ru\job4j\array\RotateArrayTest.java">
 </file>
 <file name="C:\project\aovchinnikov\chapter_001\src\test\java\ru\job4j\array\TurnTest.java">
 </file>
