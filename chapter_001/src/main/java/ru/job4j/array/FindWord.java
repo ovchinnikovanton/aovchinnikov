@@ -25,7 +25,7 @@ public class FindWord {
         for (int i = 0; i < originArray.length; i++) {
             int p = 0;
             for (int j = 0; j < subArray.length; j++) {
-                if (Objects.equals(subArray[j], originArray[i + j])) {
+                if (subArray[j] == originArray[i + j]) {
                     p = p + 1;
                 }
             }
