@@ -5,13 +5,13 @@ package ru.job4j.profession;
  */
 
 public class Teacher extends Profession {
+    Profession profession = new Profession("GalinaIvanovna", "Algebra", "", "");
+    Children children = new Children("Boris");
     /**
      * Метод возвращающий строку.
      * @return - строка.
      */
-    public String teach() {
-        Profession profession = new Profession("GalinaIvanovna", "Algebra", "", "");
-        Children children = new Children("Boris");
-        return (profession.getName() + " teach " + children.getName() + " with " + profession.getBook());
+    public String teach(Children children) {
+         return (profession.getName() + " teach " + children.getName() + " with " + profession.getBook());
     }
 }
